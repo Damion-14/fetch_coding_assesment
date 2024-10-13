@@ -1,50 +1,98 @@
-# Welcome to your Expo app 👋
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+# React Native App
 
-## Get started
+## Prerequisites
 
-1. Install dependencies
+Before you start, ensure you have the following installed on your system:
 
+- **Node.js**: Download and install from [Node.js official site](https://nodejs.org/).
+- **npm**: npm is installed with Node.js.
+- **React Native CLI**: Install it globally by running:
+  ```bash
+  npm install -g react-native-cli
+  ```
+- **Expo CLI** (if using Expo): Install it globally by running:
+  ```bash
+  npm install -g expo-cli
+  ```
+
+## Getting Started
+
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/Damion-14/fetch_coding_assesment.git  
+   cd fetch_display_app
+   ```
+
+2. **Install Dependencies**:
    ```bash
    npm install
    ```
 
-2. Start the app
+## Running the App
 
+### Windows
+
+#### Running on Android Simulator
+
+1. **Set up Android Studio**:
+   - Download and install [Android Studio](https://developer.android.com/studio).
+   - Open Android Studio and set up the Android Emulator.
+
+2. **Start the Emulator**:
+   - Open the AVD Manager in Android Studio.
+   - Start an Android Virtual Device (AVD).
+
+3. **Run the App**:
    ```bash
-    npx expo start
+   npm run start
+   ```
+   - In the terminal running Metro Bundler, press `a` to open the app on the Android Emulator.
+
+### macOS
+
+#### Running on iOS Simulator
+
+1. **Install Xcode**:
+   - Download and install [Xcode](https://apps.apple.com/us/app/xcode/id497799835?mt=12) from the Mac App Store.
+
+2. **Install Command Line Tools**:
+   ```bash
+   xcode-select --install
    ```
 
-In the output, you'll find options to open the app in a
+3. **Run the App**:
+   ```bash
+   npm run start
+   ```
+   - In the terminal running Metro Bundler, press `i` to open the app on the iOS Simulator.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+#### Running on Android Simulator
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+1. **Set up Android Studio**:
+   - Download and install [Android Studio](https://developer.android.com/studio).
+   - Open Android Studio and set up the Android Emulator.
 
-## Get a fresh project
+2. **Start the Emulator**:
+   - Open the AVD Manager in Android Studio.
+   - Start an Android Virtual Device (AVD).
 
-When you're ready, run:
+3. **Run the App**:
+   ```bash
+   npm run start
+   ```
+   - In the terminal running Metro Bundler, press `a` to open the app on the Android Emulator.
 
-```bash
-npm run reset-project
-```
+## Additional Notes
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+- Ensure your emulator is running before trying to launch the app.
+- You can also run the app on a physical device by connecting it via USB and enabling USB debugging.
+- For more information on running your app, visit the [React Native Documentation](https://reactnative.dev/docs/environment-setup).
 
-## Learn more
+## Troubleshooting
 
-To learn more about developing your project with Expo, look at the following resources:
+If you encounter issues, consider checking:
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+- Your environment variable settings for Android SDK.
+- Whether your emulators are properly configured and started.
+- The logs in the terminal for any error messages.
