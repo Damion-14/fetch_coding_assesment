@@ -6,15 +6,6 @@
 Before you start, ensure you have the following installed on your system:
 
 - **Node.js**: Download and install from [Node.js official site](https://nodejs.org/).
-- **npm**: npm is installed with Node.js.
-- **React Native CLI**: Install it globally by running:
-  ```bash
-  npm install -g react-native-cli
-  ```
-- **Expo CLI** (if using Expo): Install it globally by running:
-  ```bash
-  npm install -g expo-cli
-  ```
 
 ## Getting Started
 
